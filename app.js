@@ -9,9 +9,9 @@ import { catalogView } from './src/dashboard.js';
 import { createView } from './src/create.js';
 import { detailsView } from './src/details.js';
 import { editView } from './src/edit.js';
-// import { createSearch } from './src/search.js';
+import { createSearch } from './src/search.js';
 
-// page('/search', createSearch)
+page('/search', createSearch)
 page('/register', registerView)
 page('/login', loginView)
 page('/dashboard', catalogView)
